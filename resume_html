@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="resume2.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        * {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p> ✴ </p>
+            <ul>
+                <li><a href="C:\2302606 project\css devlop ver\mid2.html">main</a></li>
+                <li><a href="C:\2302606 project\css devlop ver\table.html">resume</a></li>
+                <li><a href="C:\2302606 project\css devlop ver\signup2.html">sign up</a></li>
+            </ul>
+        </header>
+        <section>
+
+            <p>resume</p>
+            <br>
+            <ul>
+                <a href="#personal">personal</a>
+                <a href="#education">education</a>
+                <a href="#certificate">certificate</a>
+                <a href="#career">career</a>
+            </ul> <br> <br> <br> <br> <br><br><br><br><br> <br><br>
+            
+            <p id="personal">personal</p> <br><br>
+
+            <table>
+                <tr>
+                    <th colspen="2">　　　</th>
+                </tr>
+                <tr>
+                    <th rowspan="3">name</th>
+                    <td>(Korean): 최지우</td>
+                </tr>
+                <tr><td>(Chinese Character): 崔祗瑀</td></tr>
+                <tr><td>(English): Choi Jiwoo</td></tr>
+                <tr>
+                    <th rowspan="1">birth</th>
+                    <td>2001. 03. 31</td>
+                </tr>
+                <tr>
+                    <th rowspan="1">phone</th>
+                    <td>+82 10-8020-3595</td>
+                </tr>
+                <tr>
+                    <th rowspan="1">&nbsp;address&nbsp;</th>
+                    <td>&nbsp;경기도 파주시 금신초교길 72&nbsp;</td>
+                </tr>
+            </table> <br> <br> <br> <br> <br><br><br><br><br>
+
+            <p id="education">education</p> <br> <br>
+
+            <table border="1" align="center">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>period</th>
+                        <th>school</th>
+                        <th>major</th>
+                        <th>status</th>
+                    </tr>
+                </tread>
+                <tbody>
+                    <tr>
+                        <td>　1　</td>
+                        <td>2023. 03 ~</td>
+                        <td>&nbsp;Hanyang Woman Univ.&nbsp;</td>
+                        <td>Big Data</td>
+                        <td>&nbsp;in school&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>　2　</td>
+                        <td>2017. 03 ~ 2019. 12</td>
+                        <td>&nbsp;Hanbit High School&nbsp;</td>
+                        <td>&nbsp;(Humanity)&nbsp;</td>
+                        <td>&nbsp;graduation&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table> <br> <br> <br> <br><br><br><br><br><br>
+
+            <p id="certificate">certificate</p> <br> <br>
+
+            <table border="1" align="center">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>&nbsp;certificate name&nbsp;</th>
+                        <th>&nbsp;rating&nbsp;</th>
+                        <th>date</th>
+                        <th>institution</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>　1　</td>
+                        <td>SQL 전문가</td>
+                        <td>　A　</td>
+                        <td>　B　</td>
+                        <td>&nbsp;한국데이터산업진흥원&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>　2　</td>
+                        <td>리눅스마스터</td>
+                        <td>　C　</td>
+                        <td>　D　</td>
+                        <td>KAIT</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br><br><br><br><br>
+
+            <p id="career">career</p>
+            
+            <br>
+            <br>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>institution</th>
+                        <th>date</th>
+                        <th>content</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>　1　</td>
+                        <td>　한양여자대학교 빅데이터과　</td>
+                        <td>　　ⓐ　　</td>
+                        <td>　졸업 작품 프로젝트　</td>
+                    </tr>
+                    <tr>
+                        <td>　2　</td>
+                        <td>　한국산업인력공단　</td>
+                        <td>　　ⓑ　　</td>
+                        <td>　모던 웹디자인 교육 이수　</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        
+        </section>
+        <footer>        
+            hywoman univ. bigdata 2302606 choi jiwoo / woowzui@gmail.com / <a href="https://www.instagram.com/zuiest/">@zuiest</a></footer>
+    </div>
+    
+</body>
+</html>
