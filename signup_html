@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="signup.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style type="text/css">
+        * {
+            font-family: 'Source Code Pro', monospace;
+        }
+    </style>
+    <div class="container">
+        <header>
+            <p> ✴ </p>
+            <ul>
+                <li><a href="C:\2302606 project\css devlop ver\mid2.html">main</a></li>
+                <li><a href="C:\2302606 project\css devlop ver\table.html">resume</a></li>
+                <li><a href="C:\2302606 project\css devlop ver\signup2.html">sign up</a></li>
+            </ul>
+        </header>
+        <section>
+            <p>sign up</p>
+            <br>
+            <br>
+            <form>
+                <tr>
+                    <td><label for="username">name</label></td>
+                    &nbsp;
+                    <td><input id="username" type="text" name="username" style=width:80px;></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                <td><label for="phone">phone</label></td>
+                &nbsp;
+                <td><input id="phone" type="text" name="phone" style=width:50px;></td>
+                &nbsp; - &nbsp;
+                <td><input id="phone" type="text" name="phone" style=width:50px;></td>
+                &nbsp; - &nbsp;
+                <td><input id="phone" type="text" name="phone" style=width:50px;></td>
+                </tr>                
+                <br>
+                <br>
+                <tr>
+                    <td>gender</td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <td>
+                        <input id="female" type="radio" name="gender" value="w">
+                        <label fpr="female">female</label>
+                        &nbsp;&nbsp;&nbsp;
+                        <input id="male" type="radio" name="gender" value="m">
+                        <label for="male">male</label>
+                   
+                    </td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>birth (solar)</td>
+                    &nbsp;
+                    <select>
+                        <option>2005</option>
+                        <option>2004</option>
+                        <option>2003</option>
+                        <option>2002</option>
+                        <option>2001</option>
+                        <option>2000</option>
+                        <option>1999</option>
+                        <option>1998</option>
+                        <option>1997</option>
+                        <option>1996</option>
+                        <option>1995</option>
+                        <option>1994</option>
+                        <option>1993</option>
+                    </select>
+                    &nbsp;&nbsp;
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    &nbsp;&nbsp;
+                    <select>
+                        <option>1</option> 
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>birth (lunar)</td>
+                    &nbsp;
+                    <select>
+                        <option>2005</option>
+                        <option>2004</option>
+                        <option>2003</option>
+                        <option>2002</option>
+                        <option>2001</option>
+                        <option>2000</option>
+                        <option>1999</option>
+                        <option>1998</option>
+                        <option>1997</option>
+                        <option>1996</option>
+                        <option>1995</option>
+                        <option>1994</option>
+                        <option>1993</option>
+                    </select>
+                    &nbsp;&nbsp;
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    &nbsp;&nbsp;
+                    <select>
+                        <option>1</option> 
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td><label for="age">age</label></td>
+                    &nbsp;
+                    <td><input id="age" type="text" name="age" style=width:50px;></td>               
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td><label for="address">address</label></td>
+                    &nbsp;
+                    <td><input id="address" type="text" name="address" style=width:350px;></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>reasons to sign up</td>
+                    &nbsp;&nbsp;&nbsp;
+                    <select>
+                        <option>정보 탐색</option>
+                        <option>여가 활동</option>
+                        <option>홍보 목적</option>
+                        <option>기타</option>
+                    </select>
+                </tr>
+                <br>
+                <br>
+                <br>
+                <a href="C:\2302606 project\submit page.html">sign up</a>
+            </form>
+        <footer>hywoman univ. bigdata 2302606 choi jiwoo / woowzui@gmail.com / <a href="https://www.instagram.com/zuiest/">@zuiest</a></footer>
+    </div>
+        
+</body>
+    
+</html>
