@@ -87,6 +87,8 @@ function sum(a, b) {
 const result = sum(1, 2);
 console.log(`sum: ${sum(1, 2)}`);
 
+
+
 // 7. Early return, early exit
 // bad
 function upgradeUser(user) {
