@@ -80,4 +80,17 @@ printMessage();
 
 
 
-// 
+// 6. return & value
+function sum(a, b) {
+    return a+b;
+}
+const result = sum(1, 2);
+console.log(`sum: ${sum(1, 2)}`);
+
+// 7. Early return, early exit
+// bad
+function upgradeUser(user) {
+    if (user.point > 18) {
+        // long upgrade logic ...
+    }
+}
