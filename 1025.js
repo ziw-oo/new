@@ -1,4 +1,5 @@
 // js == dynamically typed language
+// api = application progrem interface
 
 'use strict';
 // array 🐥
