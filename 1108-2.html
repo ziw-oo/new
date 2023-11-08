@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> dom basic </title>
+        <script>
+            // 이벤트를 연결합니다.
+            window.onload = function () {
+                // 문서 객체를 선택합니다.
+                var header = document.getElementById('header');
+
+                // 문서 객체를 조작합니다.
+                header.style.color = 'orange';
+                header.style.background = 'green';
+                header.innerHTML = 'from javascript';
+                // innerHTML: 태그 내부를 의미
+            };
+        </script>
+    </head>
+    <body>
+        <h1 id="header">header</h1>
+    </body>
+</html>
